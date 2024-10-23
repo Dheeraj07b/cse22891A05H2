@@ -1,0 +1,27 @@
+body {
+ font-family: Arial, sans-serif;
+ margin: 40px;
+}
+label {
+ display: block;
+ margin-bottom: 5px;
+}
+input, textarea {
+ margin-bottom: 20px;
+ width: 100%;
+ padding: 10px;
+ box-sizing: border-box;
+}
+input[type="radio"], input[type="checkbox"] {
+ width: auto;
+}
+button {
+ padding: 10px 20px;
+ background-color: #007BFF;
+ color: white;
+ border: none;
+ cursor: pointer;
+}
+button:hover {
+ background-color: #0056b3;
+}
